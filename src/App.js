@@ -6,7 +6,7 @@ function App() {
   const [item, setItem] = useState("")
   const [list, setList] = useState([])
 
-
+//code review
  const remove = (index) => {
   const newList = []
   for (let i = 0; i<list.length; i++){
